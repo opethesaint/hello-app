@@ -20,11 +20,15 @@ fans = {
     "Donald": "Arsenal 🔴",
     "Jemilat": "Man City 💙",
     "Tochukwu": "Man United 🔴",
-    "Rotimi": "Real Madrid 💙"
+    "Rotimi": "Real Madrid 💙",
+    "Muinat": "Man United 💙",
+    "Ayobami": "Barcelona 💙"
+
+
 }
 
 # Buttons in a row
-col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3, col4, col5, col6 = st.columns(4)
 
 with col1:
     if st.button("Donald", use_container_width=True):
@@ -38,6 +42,12 @@ with col3:
 with col4:
     if st.button("Rotimi", use_container_width=True):
         st.session_state.selected = "Rotimi"
+with col5:
+    if st.button("Muinat", use_container_width=True):
+        st.session_state.selected = "Muinat"
+with col6:
+    if st.button("Ayobami", use_container_width=True):
+        st.session_state.selected = "Ayobami"
 
 st.divider()
 
