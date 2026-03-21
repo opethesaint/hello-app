@@ -45,17 +45,6 @@ def display_data(df):
     #user selection
     selected_filters = {}
 
-    #generate multi - select widgets dynamically 
-    for key,options in filters.items():
-        selected_filters[key] = st.sidebar.multiselect(key, options)
-
-    #parse the filters content into a dataframe 
-    df= df.copy()
-
-    #apply filtered selection to the data
-    for key, selected_values in selected_filters.items():
-        if selected_values:
-            df = df[df[key].isin(selected_values)]
 
     #add some streamlit columns to show metrics 
     no_of_incidents = df.shape[0]
