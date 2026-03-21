@@ -28,7 +28,7 @@ fans = {
 }
 
 # Buttons in a row
-col1, col2, col3, col4, col5, col6 = st.columns(4)
+col1, col2, col3, col4, col5, col6 = st.columns(6)
 
 with col1:
     if st.button("Donald", use_container_width=True):
