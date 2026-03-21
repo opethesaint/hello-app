@@ -5,20 +5,17 @@ import streamlit as st
 import pandas as pd 
 import altair as alt
 
-#
-
 st.write("HELLO")
 st.write("TOCHUKWU")
 st.write("DONALD")
 st.write("JEMILAT")
 st.write("ROTIMI")
-import streamlit as st
 
 # Set page title
 st.set_page_config(page_title="Nigerian States", page_icon="")
 
 # Title
-st.title("🇳🇬 Nigerian States & Capitals")
+st.title("Nigerian States & Capitals")
 
 # Dictionary of states and their capitals
 states_info = {
