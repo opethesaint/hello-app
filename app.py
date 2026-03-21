@@ -20,9 +20,9 @@ fans = {
     "Donald": "Arsenal 🔴",
     "Jemilat": "Man City 💙",
     "Tochukwu": "Man United 🔴",
-    "Rotimi": "Real Madrid 💙",
+    "Rotimi": "Real Madrid  👑",
     "Muinat": "Man United 💙",
-    "Ayobami": "Barcelona 💙"
+    "Ayobami": "Barcelona 🔴 "
 
 
 }
