@@ -18,7 +18,7 @@ st.title("⚽ Football Fans")
 # Simple dictionary
 fans = {
     "Donald": "Arsenal 🔴",
-    "Emmanuel": "Man City 💙",
+    "Jemilat": "Man City 💙",
     "Tochukwu": "Man United 🔴",
     "Rotimi": "Real Madrid 💙"
 }
