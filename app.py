@@ -11,6 +11,6 @@ st.write("HELLO")
 st.write("TOCHUKWU")
 st.write("DONALD")
 st.write("JEMILAT")
-st.write("ROTIMI").str.lower()
+st.write("ROTIMI")
 
 
