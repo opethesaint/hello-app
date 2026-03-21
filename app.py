@@ -15,7 +15,7 @@ st.write("ROTIMI")
 import streamlit as st
 
 # Set page title
-st.set_page_config(page_title="Nigerian States", page_icon="🇳🇬")
+st.set_page_config(page_title="Nigerian States", page_icon="")
 
 # Title
 st.title("🇳🇬 Nigerian States & Capitals")
