@@ -80,7 +80,7 @@ st.markdown("""
     <div class="compact-header">
         <div class="nav-container">
             <div class="logo">
-                📊 DataFlow
+                📊 FUTURE DATA ANALYST
             </div>
             <div class="nav-links">
                 <span class="nav-link">Dashboard</span>
@@ -89,7 +89,7 @@ st.markdown("""
                 <span class="nav-link">Settings</span>
             </div>
             <div class="user-info">
-                <span>John Doe</span>
+                <span>ROTIMI</span>
                 <div class="avatar">JD</div>
             </div>
         </div>
