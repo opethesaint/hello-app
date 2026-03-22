@@ -95,6 +95,45 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 import streamlit as st
+import streamlit as st
+
+# Configure page
+st.set_page_config(
+    page_title="My App",
+    page_icon="✨",
+    layout="wide"
+)
+
+# Beautiful header with gradient text
+st.markdown("""
+    <style>
+    .gradient-header {
+        background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+        padding: 2rem;
+        border-radius: 20px;
+        margin-bottom: 2rem;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .gradient-header h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 0.5rem;
+    }
+    .gradient-header p {
+        font-size: 1.2rem;
+        color: #2c3e50;
+        margin-top: 0.5rem;
+    }
+    </style>
+    <div class="gradient-header">
+        <h1>✨ My Awesome App</h1>
+        <p>Transforming ideas into insights</p>
+    </div>
+""", unsafe_allow_html=True)
 
 
 import streamlit as st
