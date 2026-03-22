@@ -589,7 +589,7 @@ option = st.selectbox(
 )
 
 # Handle actions
-if option == "Web Development ":
+if option == "Web Development":
     st.info("Frontend and backend development HTML, CSS, JavaScript, PHP, Python, etc.")
 elif option == "Software Engineering":
     st.info("Comprehensive programming and software development training.")
@@ -597,6 +597,8 @@ elif option == "Cyber Security":
     st.warning("Network security, ethical hacking, and information security.")
 elif option == "Digital Marketing":
     st.warning("SEO, social media marketing, Google Ads, and content strategy.")
+elif option == "Data Science & AI":
+    st.warning("Python, machine learning, data analysis, and artificial intelligence.")
 
 
 
