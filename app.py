@@ -16,7 +16,8 @@ import pandas as pd
 # Page configuration
 st.set_page_config(
     page_title="Lagos LG Explorer",
-    page_icon="🏙️",
+    <link rel="icon" type="image/png" href="path/to/lagos-logo.png">
+
     layout="wide",
     initial_sidebar_state="collapsed"
 )
