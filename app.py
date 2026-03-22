@@ -21,6 +21,7 @@ st.set_page_config(
     <img src="URL_TO_LAGOS_LOGO.png" alt="Lagos Logo" style="width:50px;height:50px;">
 </a>
 
+
     layout="wide",
     initial_sidebar_state="collapsed"
 )
