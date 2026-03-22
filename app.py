@@ -198,7 +198,7 @@ st.markdown("""
     
     <div class="animated-header">
         <div class="wave"></div>
-        <h1>🌟 Welcome to InsightHub</h1>
+        <h1>🌟 Welcome to Rotimi Streamlit Hub</h1>
         <p>Your gateway to powerful data analytics and visualization</p>
     </div>
 """, unsafe_allow_html=True)
