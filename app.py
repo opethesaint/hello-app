@@ -560,7 +560,7 @@ st.markdown("""
 
 
 import streamlit as st
-Here’s a simple starter code for a Streamlit app that displays a title, a sidebar for user input, and shows results dynamically:
+#Here’s a simple starter code for a Streamlit app that displays a title, a sidebar for user input, and shows results dynamically:
 import streamlit as st
 
 
