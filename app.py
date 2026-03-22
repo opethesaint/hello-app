@@ -580,12 +580,12 @@ import streamlit as st
 #In Streamlit, you can mimic a 3-dot menu button (like an options menu) using st.button or st.selectbox. Here’s a neat way to implement it:
 import streamlit as st
 
-st.title("HIIT")
+st.title("HIIT CENTER")
 
 # Create a 3-dot style button using selectbox
 option = st.selectbox(
     "⋮",  # Unicode for vertical ellipsis (three dots)
-    ["Select an option", "Web Development", "Software Engineering", "Cyber Security", "Digital Marketing","Data Science"]
+    ["Select an option", "Web Development", "Software Engineering", "Cyber Security", "Digital Marketing", "Data Science"]
 )
 
 # Handle actions
