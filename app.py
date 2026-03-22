@@ -16,9 +16,14 @@ import pandas as pd
 # Page configuration
 st.set_page_config(
     page_title="Lagos LG Explorer",
-   
-  <link rel="icon" type="image/png" href="https://lagosstate.gov.ng/wp-content/uploads/2021/04/Lagos-State-Logo.png">
-  
+import streamlit as st
+
+st.set_page_config(
+    page_title="",
+    page_icon="https://lagosstate.gov.ng/wp-content/uploads/2021/04/Lagos-State-Logo.png"
+)
+
+
     layout="wide",
     initial_sidebar_state="collapsed"
 )
