@@ -584,15 +584,6 @@ elif option == "Logout":
     st.warning("You clicked Logout.")
 
 
-🔹 Explanation:
-- "⋮" is the vertical ellipsis symbol that looks like three dots.
-- st.selectbox acts like a dropdown menu when you click it.
-- You can add any options you want (Settings, Help, Logout, etc.).
-- The app reacts based on the selected option.
-Would you like me to show you a floating 3-dot button (like in mobile apps) using custom CSS for styling, so it looks more like a real icon button?
-
-
-# App title
 
 
 
