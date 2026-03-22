@@ -17,8 +17,7 @@ import pandas as pd
 st.set_page_config(
     page_title="Lagos LG Explorer",
      #page_icon="🏙️",
-   <a href="https://lagosstate.gov.ng/" target="_blank"><img src="https://lagosstate.gov.ng/wp-content/uploads/2021/04/Lagos-State-Logo.png" alt="Lagos State Logo" style="max-width:100%; height:auto; width:auto; object-fit:contain; display:inline-block;"></a>
-
+   <img src="https://lagosstate.gov.ng/wp-content/uploads/2021/04/Lagos-State-Logo.png" alt="Lagos State Logo" style="max-width:100%; height:auto; object-fit:contain;">
 
     layout="wide",
     initial_sidebar_state="collapsed"
