@@ -83,7 +83,6 @@ st.markdown("""
                 📊 FUTURE DATA ANALYST
             </div>
             <div class="nav-links">
-               <! -- <span class="nav-link">Dashboard</span> -->
                 <span class="nav-link">Analytics</span>
                 <span class="nav-link">Reports</span>
             </div>
