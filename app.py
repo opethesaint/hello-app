@@ -99,36 +99,6 @@ import streamlit as st
 import streamlit as st
 from PIL import Image
 import base64
-
-st.set_page_config(
-    page_title="My App",
-    page_icon="🚀",
-    layout="wide
-    }
-    
-    .modern-header::before {
-        content: '';
-        position: absolute;
-        top: -50%;
-        left: -50%;
-        width: 200%;
-        height: 200%;
-        background: radial-gradient(circle, rgba(255,255,255,0.1) 1%, transparent 1%);
-        background-size: 50px 50px;
-        animation: shimmer 20s linear infinite;
-    }
-    
-    @keyframes shimmer {
-        0% {
-            transform: translate(0,0);
-        }
-        100% {
-            transform: translate(50px,50px);
-        
-    
-   
-   
-
 import streamlit as st
 
 st.set_page_config(
