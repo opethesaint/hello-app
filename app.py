@@ -98,6 +98,129 @@ st.markdown("""
 
 import streamlit as st
 
+
+import streamlit as st
+from PIL import Image
+import base64
+
+st.set_page_config(
+    page_title="My App",
+    page_icon="🚀",
+    layout="wide"
+)
+
+# Custom CSS for modern header
+st.markdown("""
+    <style>
+    /* Modern header styling */
+    .modern-header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        padding: 1.5rem 2rem;
+        border-radius: 0 0 20px 20px;
+        margin-bottom: 2rem;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .modern-header::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(circle, rgba(255,255,255,0.1) 1%, transparent 1%);
+        background-size: 50px 50px;
+        animation: shimmer 20s linear infinite;
+    }
+    
+    @keyframes shimmer {
+        0% {
+            transform: translate(0,0);
+        }
+        100% {
+            transform: translate(50px,50px);
+        }
+    }
+    
+    .header-content {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .title-section h1 {
+        color: white;
+        font-size: 2.5rem;
+        margin: 0;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+    }
+    
+    .title-section p {
+        color: rgba(255,255,255,0.9);
+        margin: 0.5rem 0 0 0;
+        font-size: 1rem;
+    }
+    
+    .stats {
+        display: flex;
+        gap: 2rem;
+    }
+    
+    .stat-item {
+        text-align: center;
+        background: rgba(255,255,255,0.2);
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+    }
+    
+    .stat-number {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        display: block;
+    }
+    
+    .stat-label {
+        color: rgba(255,255,255,0.8);
+        font-size: 0.8rem;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+# Create header
+col1, col2 = st.columns([2, 1])
+
+with col1:
+    st.markdown("""
+        <div class="title-section">
+            <h1>🚀 DataMaster Pro</h1>
+            <p>Advanced analytics platform for modern businesses</p>
+        </div>
+    """, unsafe_allow_html=True)
+
+with col2:
+    st.markdown("""
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-number">1.2K+</span>
+                <span class="stat-label">Users</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">99.9%</span>
+                <span class="stat-label">Uptime</span>
+            </div>
+        </div>
+    """, unsafe_allow_html=True)
+
+st.markdown('<div class="modern-header"><div class="header-content">', unsafe_allow_html=True)
+st.markdown('</div></div>', unsafe_allow_html=True)
+
 import streamlit as st
 
 st.set_page_config(
