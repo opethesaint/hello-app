@@ -598,7 +598,7 @@ elif option == "Cyber Security":
 elif option == "Digital Marketing":
     st.warning("SEO, social media marketing, Google Ads, and content strategy.")
 elif option == "Data Science & AI":
-    st.warning("Python, machine learning, data analysis, and artificial intelligence.")
+    st.info("Python, machine learning, data analysis, and artificial intelligence.")
 
 
 
