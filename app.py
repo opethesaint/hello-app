@@ -98,6 +98,111 @@ st.markdown("""
 
 import streamlit as st
 
+import streamlit as st
+
+st.set_page_config(
+    page_title="My App",
+    page_icon="🎨",
+    layout="wide"
+)
+
+# Animated header with CSS
+st.markdown("""
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+    
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .animated-header {
+        text-align: center;
+        padding: 3rem 2rem;
+        background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+        border-radius: 30px;
+        margin-bottom: 2rem;
+        animation: fadeInUp 0.8s ease-out;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .animated-header h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 1rem;
+        animation: slideIn 0.5s ease-out;
+    }
+    
+    @keyframes slideIn {
+        from {
+            opacity: 0;
+            transform: translateX(-30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    
+    .animated-header p {
+        font-size: 1.2rem;
+        color: #5a6e8a;
+        max-width: 600px;
+        margin: 0 auto;
+        animation: fadeIn 1s ease-out 0.3s both;
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+    .wave {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgba(255,255,255,0.3)" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,154.7C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') repeat-x;
+        background-size: cover;
+        animation: wave 20s linear infinite;
+    }
+    
+    @keyframes wave {
+        0% {
+            background-position-x: 0;
+        }
+        100% {
+            background-position-x: 1440px;
+        }
+    }
+    </style>
+    
+    <div class="animated-header">
+        <div class="wave"></div>
+        <h1>🌟 Welcome to InsightHub</h1>
+        <p>Your gateway to powerful data analytics and visualization</p>
+    </div>
+""", unsafe_allow_html=True)
+
 st.title("⚽ Football Fans")
 
 # Simple dictionary
