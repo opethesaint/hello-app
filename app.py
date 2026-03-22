@@ -590,7 +590,7 @@ option = st.selectbox(
 
 # Handle actions
 if option == "Web Development ":
-    st.info("Frontend and backend development (HTML, CSS, JavaScript, PHP, Python, etc.)")
+    st.info("Frontend and backend development HTML, CSS, JavaScript, PHP, Python, etc.")
 elif option == "Software Engineering":
     st.info("Comprehensive programming and software development training.")
 elif option == "Cyber Security":
