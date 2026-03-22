@@ -563,71 +563,36 @@ import streamlit as st
 Here’s a simple starter code for a Streamlit app that displays a title, a sidebar for user input, and shows results dynamically:
 import streamlit as st
 
-# App title
-st.title("My First Streamlit App")
 
-# Sidebar input
-st.sidebar.header("User Input")
-name = st.sidebar.text_input("Enter your name:")
-age = st.sidebar.number_input("Enter your age:", min_value=0, max_value=120, step=1)
+In Streamlit, you can mimic a 3-dot menu button (like an options menu) using st.button or st.selectbox. Here’s a neat way to implement it:
+import streamlit as st
 
-# Main content
-st.write("### Welcome to the app!")
-if name:
-    st.write(f"Hello, **{name}** 👋")
-if age:
-    st.write(f"You are **{age}** years old.")
+st.title("Three Dot Menu Example")
 
-# Simple interaction
-if st.button("Click Me"):
-    st.success("You clicked the button!")
-
-
-🔹 This app:
-- Shows a title at the top.
-- Lets users enter their name and age in the sidebar.
-- Displays personalized text in the main area.
-- Includes a button with a success message.
-Would you like me to expand this into something more functional, like a data visualization demo or a mini calculator app?
-
-
-# Configure page
-st.set_page_config(
-    page_title="My App",
-    page_icon="✨",
-    layout="wide"
+# Create a 3-dot style button using selectbox
+option = st.selectbox(
+    "⋮",  # Unicode for vertical ellipsis (three dots)
+    ["Select an option", "Settings", "Help", "Logout"]
 )
 
-# Beautiful header with gradient text
-st.markdown("""
-    <style>
-    .gradient-header {
-        background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-        padding: 2rem;
-        border-radius: 20px;
-        margin-bottom: 2rem;
-        text-align: center;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-    .gradient-header h1 {
-        font-size: 3rem;
-        font-weight: 800;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        margin-bottom: 0.5rem;
-    }
-    .gradient-header p {
-        font-size: 1.2rem;
-        color: #2c3e50;
-        margin-top: 0.5rem;
-    }
-    </style>
-    <div class="gradient-header">
-        <h1>✨ EID MUBARAK</h1>
-        <p>Happy Celebration</p>
-    </div>
-""", unsafe_allow_html=True)
+# Handle actions
+if option == "Settings":
+    st.info("You opened Settings.")
+elif option == "Help":
+    st.info("Here’s some help information.")
+elif option == "Logout":
+    st.warning("You clicked Logout.")
+
+
+🔹 Explanation:
+- "⋮" is the vertical ellipsis symbol that looks like three dots.
+- st.selectbox acts like a dropdown menu when you click it.
+- You can add any options you want (Settings, Help, Logout, etc.).
+- The app reacts based on the selected option.
+Would you like me to show you a floating 3-dot button (like in mobile apps) using custom CSS for styling, so it looks more like a real icon button?
+
+
+# App title
 
 
 
