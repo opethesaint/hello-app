@@ -425,7 +425,7 @@ with col_left:
     st.markdown("### 🌟 Featured Local Governments")
     
     # Create tabs for featured LGs
-    tab1, tab2, tab3 = st.tabs(["🏙️ Alimosho", "🌊 Eti-Osa", "🏛️ Ikeja"])
+    tab1, tab2, tab3,tab4 = st.tabs(["🏙️ Alimosho", "🌊 Eti-Osa", "🏛️ Ikeja","Agege"])
     
     with tab1:
         st.markdown("""
