@@ -90,7 +90,7 @@ st.markdown("""
             </div>
             <div class="user-info">
                 <span>ROTIMI</span>
-                <div class="avatar">JD</div>
+                <div class="avatar">ORR</div>
             </div>
         </div>
     </div>
