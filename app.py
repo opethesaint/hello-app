@@ -310,7 +310,7 @@ with col2:
 with col3:
     st.markdown("""
         <div class="stat-card">
-            <div class="stat-number">15M+</div>
+            <div class="stat-number">20M+</div>
             <div class="stat-label">Population</div>
         </div>
     """, unsafe_allow_html=True)
