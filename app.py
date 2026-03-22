@@ -460,6 +460,17 @@ with col_left:
             </div>
         """, unsafe_allow_html=True)
 
+    with tab4:
+        st.markdown("""
+            <div class="info-card">
+                <h3 style="color: #667eea;">Agege</h3>
+                <p><strong>📊 Population:</strong> 333,196</p>
+                <p><strong>🗺️ Area:</strong> 50.8 km²</p>
+                <p><strong>👤 Chairman:</strong> Hon. Ganiyu Obasa</p>
+                <p><strong>✨ Known for:</strong> Agege, Government House</p>
+            </div>
+        """, unsafe_allow_html=True)
+
 with col_right:
     st.markdown("### 📊 Quick Stats")
     
