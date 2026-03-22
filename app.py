@@ -5,11 +5,96 @@ import streamlit as st
 import pandas as pd 
 import altair as alt
 
-#st.write("HELLO")
-#st.write("TOCHUKWU")
-#st.write("DONALD")
-#st.write("JEMILAT")
-#st.write("ROTIMI")
+
+import streamlit as st
+
+st.set_page_config(
+    page_title="My App",
+    page_icon="📊",
+    layout="wide"
+)
+
+# Header with navigation
+st.markdown("""
+    <style>
+    .compact-header {
+        background: white;
+        padding: 1rem 2rem;
+        border-bottom: 3px solid #667eea;
+        margin-bottom: 2rem;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .nav-links {
+        display: flex;
+        gap: 2rem;
+    }
+    
+    .nav-link {
+        text-decoration: none;
+        color: #4a5568;
+        font-weight: 500;
+        transition: color 0.3s ease;
+        cursor: pointer;
+    }
+    
+    .nav-link:hover {
+        color: #667eea;
+    }
+    
+    .user-info {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .avatar {
+        width: 40px;
+        height: 40px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: bold;
+    }
+    </style>
+    
+    <div class="compact-header">
+        <div class="nav-container">
+            <div class="logo">
+                📊 DataFlow
+            </div>
+            <div class="nav-links">
+                <span class="nav-link">Dashboard</span>
+                <span class="nav-link">Analytics</span>
+                <span class="nav-link">Reports</span>
+                <span class="nav-link">Settings</span>
+            </div>
+            <div class="user-info">
+                <span>John Doe</span>
+                <div class="avatar">JD</div>
+            </div>
+        </div>
+    </div>
+""", unsafe_allow_html=True)
 
 import streamlit as st
 
