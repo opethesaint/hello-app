@@ -560,6 +560,36 @@ st.markdown("""
 
 
 import streamlit as st
+Here’s a simple starter code for a Streamlit app that displays a title, a sidebar for user input, and shows results dynamically:
+import streamlit as st
+
+# App title
+st.title("My First Streamlit App")
+
+# Sidebar input
+st.sidebar.header("User Input")
+name = st.sidebar.text_input("Enter your name:")
+age = st.sidebar.number_input("Enter your age:", min_value=0, max_value=120, step=1)
+
+# Main content
+st.write("### Welcome to the app!")
+if name:
+    st.write(f"Hello, **{name}** 👋")
+if age:
+    st.write(f"You are **{age}** years old.")
+
+# Simple interaction
+if st.button("Click Me"):
+    st.success("You clicked the button!")
+
+
+🔹 This app:
+- Shows a title at the top.
+- Lets users enter their name and age in the sidebar.
+- Displays personalized text in the main area.
+- Includes a button with a success message.
+Would you like me to expand this into something more functional, like a data visualization demo or a mini calculator app?
+
 
 # Configure page
 st.set_page_config(
