@@ -199,8 +199,8 @@ col1, col2 = st.columns([2, 1])
 with col1:
     st.markdown("""
         <div class="title-section">
-            <h1>🚀 DataMaster Pro</h1>
-            <p>Advanced analytics platform for modern businesses</p>
+            <h1>🚀 HOME BOY</h1>
+            <p>Eid MUbarak</p>
         </div>
     """, unsafe_allow_html=True)
 
