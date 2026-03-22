@@ -585,16 +585,18 @@ st.title("HIIT")
 # Create a 3-dot style button using selectbox
 option = st.selectbox(
     "⋮",  # Unicode for vertical ellipsis (three dots)
-    ["Select an option", "Settings", "Help", "Logout"]
+    ["Select an option", "Web Development", "Software Engineering", "Cyber Security", "Digital Marketing"]
 )
 
 # Handle actions
-if option == "Settings":
-    st.info("You opened Settings.")
-elif option == "Help":
-    st.info("Here’s some help information.")
-elif option == "Logout":
-    st.warning("You clicked Logout.")
+if option == "Web Development ":
+    st.info("Frontend and backend development (HTML, CSS, JavaScript, PHP, Python, etc.")
+elif option == "Software Engineering":
+    st.info("Comprehensive programming and software development training.")
+elif option == "Cyber Security":
+    st.warning("Network security, ethical hacking, and information security.")
+elif option == "Digital Marketing":
+    st.warning("SEO, social media marketing, Google Ads, and content strategy.")
 
 
 
