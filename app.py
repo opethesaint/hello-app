@@ -585,7 +585,7 @@ st.title("HIIT")
 # Create a 3-dot style button using selectbox
 option = st.selectbox(
     "⋮",  # Unicode for vertical ellipsis (three dots)
-    ["Select an option", "Web Development", "Software Engineering", "Cyber Security", "Digital Marketing"]
+    ["Select an option", "Web Development", "Software Engineering", "Cyber Security", "Digital Marketing","Data Science"]
 )
 
 # Handle actions
