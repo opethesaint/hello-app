@@ -1,4 +1,4 @@
-
+ 
 import streamlit as st 
 import pandas as pd
 import streamlit as st
@@ -722,13 +722,14 @@ fans = {
     "Tochukwu": "Man United 🔴",
     "Rotimi": "Real Madrid  👑",
     "Muinat": "Man United 💙",
-    "Ayobami": "Barcelona 🔴 "
+    "Ayobami": "Barcelona 🔴",
+     "Femi": "Real-Madrid 🔴 "
 
 
 }
 
 # Buttons in a row
-col1, col2, col3, col4, col5, col6 = st.columns(6)
+col1, col2, col3, col4, col5, col6, col7 = st.columns(6)
 
 with col1:
     if st.button("Donald", use_container_width=True):
@@ -748,6 +749,9 @@ with col5:
 with col6:
     if st.button("Ayobami", use_container_width=True):
         st.session_state.selected = "Ayobami"
+ with col7:
+    if st.button("Femi", use_container_width=True):
+        st.session_state.selected = "Femi"
 
 st.divider()
 
