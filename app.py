@@ -723,7 +723,7 @@ fans = {
     "Rotimi": "Real Madrid  👑",
     "Muinat": "Man United 💙",
     "Ayobami": "Barcelona 🔴",
-     "Femi": "Real-Madrid 🔴 "
+     "Femi": "Real-Madrid 👑 "
 
 
 }
@@ -749,7 +749,7 @@ with col5:
 with col6:
     if st.button("Ayobami", use_container_width=True):
         st.session_state.selected = "Ayobami"
- with col7:
+with col7:
     if st.button("Femi", use_container_width=True):
         st.session_state.selected = "Femi"
 
